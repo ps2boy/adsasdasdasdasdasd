@@ -16,7 +16,7 @@ bot.on('message', function(message){
             message.channel.sendMessage("pong")
         break;
         case 'buy':
-                message.reply('To buy please contact ps2boy#8202');
+                message.reply('To buy $100 please contact ps2boy#8202');
         break;
         case 'info':
             var embed = new Discord.RichEmbed()
@@ -26,7 +26,7 @@ bot.on('message', function(message){
                CSGO Cheat
             10$ for 1 Month
             15$ for 2 Months
-            150$ for Lifetime
+            1500$ for Lifetime
 
             CSGO Hour Booster
             15$ for 1 Month of constant runtime
